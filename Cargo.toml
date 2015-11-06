@@ -1,0 +1,12 @@
+[package]
+name = "rlibcex"
+version = "0.1.0"
+authors = ["Jeff Waugh <jdub@bethesignal.org>"]
+license = "MIT/Apache-2.0"
+
+readme = "README.md"
+homepage = "https://github.com/jdub/rlibcex"
+repository = "https://github.com/jdub/rlibcex.git"
+description = """
+A partner to rlibc, with extra libc functions for freestanding Rust projects
+"""
