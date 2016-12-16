@@ -1,8 +1,8 @@
 #![no_std]
-#![feature(no_std)]
 #![allow(non_camel_case_types)]
+#![cfg_attr(test, feature(test))]
 
-#![feature(test)]
+#[cfg(test)]
 extern crate test;
 
 /*
